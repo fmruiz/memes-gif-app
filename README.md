@@ -1,6 +1,5 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Memes Generator
+- Una app generadora de Gifs creada usando tecnologias como React y Bootstrap, consumiendo la API de Giphy
 
 ## Available Scripts
 
