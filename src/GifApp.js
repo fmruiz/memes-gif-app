@@ -1,10 +1,13 @@
 import React, { useState } from 'react'
-import InputCategory from './components/InputCategory'
+
 import NavMenu from './components/NavMenu'
+import InputCategory from './components/InputCategory'
+import SearchGifs from './components/SearchGifs'
 
 const GifApp = () => {
 
-    // const [categorias, setCategorias] = useState(["simpsons"])
+    // estado de las categorias
+    const [categorias, setCategorias] = useState([])
 
     return (
         <>
@@ -12,7 +15,10 @@ const GifApp = () => {
             <NavMenu />
 
             {/* titulo y barra de busqueda */}
-            <InputCategory />
+            <InputCategory setCategorias={ setCategorias } />
+
+            {/* container de gifs */}
+            <SearchGifs categorias={ categorias }/>
         </>
     )
 }
