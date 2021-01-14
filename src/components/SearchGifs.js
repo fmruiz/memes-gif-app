@@ -18,7 +18,7 @@ const SearchGifs = ({ category }) => {
     return (
         <>
             <h2 className="text-center">{ category.toUpperCase() }</h2>
-            <div className="d-flex gif-container mb-5 pb-5">
+            <div className="gif-container mb-5 pb-5 pt-3">
                 {
                     imagenes.map( imagen=> {
                         return ( <GifItem

@@ -31,8 +31,9 @@ h3 {
   margin: 0 auto;
 }
 
-.gif-container img {
-  width: 70%;
+.gif-container {
+  column-count: 5;
 }
+
 
 

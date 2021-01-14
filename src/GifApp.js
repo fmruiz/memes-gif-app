@@ -8,7 +8,7 @@ import Footer from './components/Footer'
 const GifApp = () => {
 
     // estado de las categorias
-    const [categorias, setCategorias] = useState(["simpsons"])
+    const [categorias, setCategorias] = useState(["memes"])
 
     return (
         <>
