@@ -13,7 +13,7 @@ const InputCategory = ({ setCategorias }) => {
     // cuando se envia realiza el submit del input
     const handleClick = () => {
         if( inputValue.trim().length > 2 ) {
-            setCategorias( c => [...inputValue, c])
+            setCategorias([ inputValue ])
             setInputValue("")
         }
     }
@@ -27,7 +27,7 @@ const InputCategory = ({ setCategorias }) => {
                 
                 {/* input value */}
                 <div className="input-group shadow">
-                    <input type="text" className="form-control" placeholder="Busca lo que quieras!" value={ inputValue } onChange={ inputChange } aria-describedby="basic-addon1"/>
+                    <input type="text" className="form-control" placeholder="Busca lo que quieras!" value={ inputValue } onChange={ inputChange }/>
                     <div className="input-group-append">
                         <button className="btn btn-success" type="button" onClick={ handleClick }>Buscar</button>
                     </div>
