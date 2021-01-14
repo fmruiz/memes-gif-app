@@ -9,7 +9,7 @@ const NavMenu = () => {
                     <div className=" d-flex justify-content-around align-items-center py-3">
                         <h1>Memes-Generator</h1>
 
-                        <div>
+                        <div className="links">
                             <a href="#" className="mx-3">Inicio</a>
                             <a href="#" className="mx-3">Gifs Populares</a>
                             <a href="#" className="mx-3">Ayuda</a>

@@ -31,9 +31,24 @@ h3 {
   margin: 0 auto;
 }
 
-.gif-container {
-  column-count: 5;
+@media (min-width: 576px) {
+  .gif-container {
+    column-count: 5;
+  }
 }
+
+@media (max-width: 576px) {
+  .gif-container {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 576px) {
+  .links {
+    display: none!important;
+  }
+}
+
 
 
 
